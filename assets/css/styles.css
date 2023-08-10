@@ -1,0 +1,35 @@
+.invert {
+  color: #7b736f;
+  border-color: #7b736f;
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+}
+
+.invert:hover {
+  color: white;
+  border-color: #7b736f;
+  border-style: solid;
+  background-color: #7b736f;
+  border-width: 1px;
+}
+
+.image-container {
+  overflow: hidden;
+  position: relative;
+  width: auto!important;
+  height: 425px!important;
+  margin-top: -25px;
+}
+
+.image-container img {
+  width: 100%;
+  position: absolute;
+  top: -50px;
+  left: 0;
+}
+
+.text-muted {
+  margin-top: 25px;
+}
+
